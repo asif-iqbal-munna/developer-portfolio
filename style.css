@@ -6,10 +6,18 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 h1 {
     font-size: 35px;
+}
+
+h2 {
+    font-size: 28px;
+}
+h6  {
+    font-size: 18px;
 }
 .orange-text-color {
     color: orange;
@@ -19,8 +27,12 @@ h1 {
     background-repeat: no-repeat;
     background-position: left top;
 }
+
 section {
     padding: 0 10%;
+    margin-bottom: 50px;
+}
+.row {
     display: flex;
     align-items: center;
 
@@ -43,4 +55,36 @@ section {
     display: inline-block;
     margin-top: 20px;
     border-radius: 5px;
+}
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mt {
+    margin-top: 20px;
+}
+.mt-sm {
+    margin-top: 12px;
+}
+
+.card {
+    align-self: stretch;
+    margin: 30px;
+    padding: 40px 20px;
+    box-shadow: 5px 5px 20px 5px rgba(78, 57, 57, 0.5);
+}
+
+.card-1 {
+    border-left: 7px solid transparent;
+    border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(242,55,55,1) 50%);
+    border-image-slice: 9;
+    margin-left: 0;
+}
+.card-2 {
+    border-left: 7px solid transparent;
+    border-image: linear-gradient(45deg, #00F2FF 0%, #000BFF 50%);
+    border-image-slice: 9;
+    margin-right: 0;
 }
