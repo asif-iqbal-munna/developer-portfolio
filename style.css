@@ -29,13 +29,19 @@ h6  {
 }
 
 section {
-    padding: 0 10%;
+    padding: 0 5.5%;
     margin-bottom: 50px;
 }
 .row {
     display: flex;
     align-items: center;
 
+}
+.mt {
+    margin-top: 20px;
+}
+.mt-sm {
+    margin-top: 12px;
 }
 .half-width {
     width: 50%;
@@ -62,11 +68,10 @@ section {
     background-position: right;
 }
 
-.mt {
-    margin-top: 20px;
-}
-.mt-sm {
-    margin-top: 12px;
+.experience-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .card {
@@ -74,6 +79,8 @@ section {
     margin: 30px;
     padding: 40px 20px;
     box-shadow: 5px 5px 20px 5px rgba(78, 57, 57, 0.5);
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 10px;
 }
 
 .card-1 {
@@ -88,3 +95,12 @@ section {
     border-image-slice: 9;
     margin-right: 0;
 }
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
